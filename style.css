@@ -259,6 +259,8 @@ h1 {
     font-size: 4em;
     font-weight: 900;
     letter-spacing: 1em;
+    padding: 0px;
+    padding-left: 30px;
 }
 
 input {
@@ -274,9 +276,8 @@ input {
     font-weight: 900;
     letter-spacing: 1em;
     margin-left: 90px;
-    margin-top: 230px;
+    margin-top: 130px;
     max-width: 320px;
-    margin-top: 250px;
 }
 
 h3, h4, h5 {
@@ -358,4 +359,20 @@ h3 {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+#number-limit-input {
+  margin-top: 0px;
+  width: 400px;
+}
+
+#output {
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 70px;
+}
+
+.range {
+  text-align: center;
+  width: 500px;
 }
